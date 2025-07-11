@@ -1,0 +1,37 @@
+body {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: url(HST\ logo.png);
+  background-size: cover;
+}
+
+#navbar {
+  height: 40px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  padding: 10px;
+  gap: 15px;
+  position: fixed;
+  top: 0px;
+}
+
+#navbar a {
+  color: azure !important;
+  text-decoration: none;
+
+}
+
+/*p {
+  height : 1500px;
+  width: 1000px;
+  top: 20px;*/
+
+#page{
+height: 1000px;
+width: 1000px;
+position: absolute;
+top: 50px;
+}
